@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #D1D1C9;
+  color: white;
 }
 .container {
   width: 100%;
@@ -24,7 +25,6 @@ body {
   }
 }
 .content-container {
-
   margin: 10px 0 10px 0;
   display: flex;
   flex-wrap: wrap;
@@ -34,9 +34,37 @@ body {
   width: 90%;
   height: 250px;
   border-radius: 5px;
+  margin: 10px;
 }
 .rafting {
   background: url('../img/rafting.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.base {
+  background: url('../img/basecamp.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.backpack {
+  background: url('../img/backpacking.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.canoe {
+  background: url('../img/canoe.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.photo {
+  background: url('../img/photo.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.custom {
+  background: url('../img/home.jpg');
   background-position: center;
   background-size: cover;
 }
