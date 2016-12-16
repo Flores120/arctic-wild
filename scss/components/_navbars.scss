@@ -1,0 +1,25 @@
+.links {
+  display: none;
+}
+.navbar {
+  display: none;
+  width: 100%;
+  height: 100px;
+  background-color: #333333;
+}
+@media screen and (min-width: 1000px) {
+  .links {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    h4 {
+      margin-right: 30px;
+    }
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+}
