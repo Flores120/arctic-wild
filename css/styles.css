@@ -1,18 +1,41 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: #D1D1C9; }
 
-.navbar {
-  color: white;
+.container {
+  width: 100%; }
+
+.header {
   width: 100%;
   height: 600px;
   background: url("../img/bg.jpg");
   background-position: center;
-  background-size: cover;
-  padding: 10px;
+  background-size: cover; }
+
+.navbar {
+  color: white;
+  padding: 10px 15px;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between; }
   .navbar img {
     width: 50px; }
+
+.content-container {
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.gallery {
+  width: 90%;
+  height: 250px;
+  border-radius: 5px; }
+
+.rafting {
+  background: url("../img/rafting.jpg");
+  background-position: center;
+  background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */
