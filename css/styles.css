@@ -5,6 +5,10 @@ body {
   color: white;
   font-family: 'Oswald', sans-serif; }
 
+a {
+  text-decoration: none;
+  color: #BDBDA6; }
+
 .container {
   width: 100%; }
 
@@ -31,6 +35,9 @@ body {
   .top-bar img {
     width: 50px; }
 
+.links {
+  display: none; }
+
 .navbar {
   display: none;
   width: 100%;
@@ -48,7 +55,7 @@ body {
   height: 250px;
   border-radius: 5px;
   margin: 10px;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end; }
@@ -95,21 +102,33 @@ body {
     margin: 0; }
 
   .base {
-    width: 47%;
+    width: 45%;
     flex-grow: 1; }
 
   .backpack {
-    width: 47%;
+    width: 45%;
     flex-grow: 1; }
 
   .canoe {
-    width: 47%;
+    width: 45%;
     flex-grow: 1; }
 
   .photo {
-    width: 47%;
+    width: 45%;
     flex-grow: 1; } }
 @media screen and (min-width: 1000px) {
+  .top-bar {
+    justify-content: center;
+    justify-content: space-around; }
+
+  .links {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
   .navbar {
     display: flex;
     justify-content: space-around; }
@@ -119,7 +138,7 @@ body {
     margin: 0; }
 
   .rafting {
-    width: 47.6%; }
+    width: 45%; }
 
   .base {
     width: 23%; }
@@ -134,6 +153,9 @@ body {
     width: 23%; }
 
   .custom {
-    width: 47.6%; } }
+    width: 45%; }
+
+  #menu {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
