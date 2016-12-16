@@ -36,6 +36,27 @@ a {
     width: 50px;
   }
 }
+.button {
+  display: flex;
+  justify-content: center;
+  button {
+    padding: 10px;
+    border: none;
+    align-items: center;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    width: 108px;
+    height: 108px;
+    transition: all 0.6s;
+    &:hover {
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.7);
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
 .links {
   display: none;
 }
@@ -52,14 +73,45 @@ a {
   justify-content: center;
 }
 .gallery {
+  position: relative;
   width: 90%;
   height: 250px;
   border-radius: 5px;
   margin: 10px;
   padding: 15px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.h-display {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 100%;
+}
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  #icon {
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    border: none;
+    align-items: center;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    outline: none;
+    width: 50px;
+    height: 50px;
+    transition: all 0.6s;
+    &:hover {
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.7);
+      width: 60px;
+      height: 60px;
+    }
+  }
 }
 .rafting {
   background: url('../img/rafting.jpg');
